@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>BACKBONE Marionette Tutorial: Collections</title>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js"></script>
+    <script src="./assets/javascripts/vendor/underscore.js"></script>
+    <script src="./assets/javascripts/vendor/backbone.js"></script>
+    <script src="./assets/javascripts/vendor/backbone.marionette.js"></script>
+    <script src="myJs.js"></script>
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <link href="./assets/css/custom.css" rel="stylesheet">
+    <link href="./myCss.css" rel="stylesheet">
+  </head>
+  <body >
+    
+    <div id="profile">
+    </div>
+
+    <div id="personne">
+    </div>
+
+    <a href='index.html'><input type='button' value='charger'></a>
+
+
+
+
+
+
+      <script type="text/template" id="profiles-template">
+        <thead>
+          <tr class='header'>
+            <th>Name</th>
+            <th>Departement</th>
+            <th>Fonction</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </script>
+
+      <script type="text/template" id="profile-template">
+        <td class='nom'><%= nom %></td>
+        <td class='departement'><%= departement %></td>
+        <td class='fonction'><%= fonction %></td>
+      </script>
+
+
+
+
+      <script type="text/template" id="personnes-template">
+        <thead>
+          <tr class='header'>
+            <th>Name</th>
+            <th>Title</th>
+            <th>Background</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </script>
+
+      <script type="text/template" id="personne-template">
+        <td class='name'><%= name %></td>
+        <td><%= title %></td>
+        <td><%= background %></td>
+      </script>
+      
+      
+      
+
+    
+  </body>
+</html>

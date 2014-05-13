@@ -1,0 +1,17 @@
+[
+    {
+        "nom": "Delia Ramirez",
+        "departement": "Info-com",
+        "fonction": "Travaille dans une chocolaterie"  
+    },
+    {
+        "nom": "Laurence Dudemaine",
+        "departement": "Arts et lettres",
+        "fonction": "Etudie au CEGEP"
+    },
+    {
+        "nom": "Joscar Nzembi",
+        "departement": "Informatique",
+        "fonction": "Stagiaire a iRESTful inc"
+    }
+]
