@@ -82,7 +82,7 @@ PersonnesView = Backbone.Marionette.CompositeView.extend({
 
 
 /**
-                                    INITIALIZER
+                                    ROUTER
 **/
 
 
